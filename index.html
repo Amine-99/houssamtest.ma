@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houssem Design - Creative Design Studio</title>
+    <meta name="description" content="We craft exceptional digital experiences through innovative design solutions that captivate audiences and drive results.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Houssem Design</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-element" style="top: 25%; left: 25%;"></div>
+            <div class="floating-element" style="bottom: 25%; right: 25%; animation-delay: 2s;"></div>
+            <div class="floating-element" style="top: 50%; left: 50%; animation-delay: 4s;"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">CREATIVE</span><br>
+                    <span class="typewriter">DESIGN STUDIO</span>
+                </h1>
+                <p class="hero-subtitle">
+                    We craft exceptional digital experiences through innovative design solutions that captivate audiences and drive results.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="gradient-text">Featured</span> Work</h2>
+                <p>Explore our latest projects that showcase innovation, creativity, and exceptional design craftsmanship.</p>
+            </div>
+            
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="TechFlow Branding">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>TechFlow Branding</h3>
+                            <p>Complete brand identity design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="E-Commerce Platform">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Modern web design & development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="HealthTracker App">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>HealthTracker App</h3>
+                            <p>Mobile UI/UX design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="print">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Bistro Menu Design">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>Bistro Menu Design</h3>
+                            <p>Print design & layout</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Analytics Dashboard">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>Analytics Dashboard</h3>
+                            <p>SaaS interface design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Creative Agency Site">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>Creative Agency Site</h3>
+                            <p>Portfolio website design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Process</span></h2>
+                <p>From concept to completion, we follow a proven methodology that ensures exceptional results every time.</p>
+            </div>
+            
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="process-icon cyan">💡</div>
+                    <h3>Discovery</h3>
+                    <p>Understanding your vision, goals, and target audience through collaborative research and strategy sessions.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon coral">🎨</div>
+                    <h3>Design</h3>
+                    <p>Creating innovative concepts and detailed designs that align with your brand and resonate with your audience.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon teal">💻</div>
+                    <h3>Development</h3>
+                    <p>Bringing designs to life with clean, efficient code and cutting-edge technology for optimal performance.</p>
+                </div>
+                <div class="process-step">
+                    <div class="process-icon cyan">🚀</div>
+                    <h3>Launch</h3>
+                    <p>Deploying your project with thorough testing, optimization, and ongoing support for continued success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client <span class="gradient-text">Testimonials</span></h2>
+                <p>What our clients say about working with us</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Alex Thompson">
+                                <div>
+                                    <h4>Alex Thompson</h4>
+                                    <p>CEO, TechFlow Solutions</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-content">
+                                "Houssem Design transformed our brand identity completely. Their creative vision and attention to detail exceeded our expectations. Professional, efficient, and truly innovative!"
+                            </p>
+                            <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b5a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Sarah Chen">
+                                <div>
+                                    <h4>Sarah Chen</h4>
+                                    <p>Founder, EcoStyle</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-content">
+                                "Working with Houssem Design was an absolute pleasure. They understood our vision perfectly and delivered designs that truly represent our brand values. Highly recommended!"
+                            </p>
+                            <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Marcus Rodriguez">
+                                <div>
+                                    <h4>Marcus Rodriguez</h4>
+                                    <p>Director, Digital Innovations</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-content">
+                                "The team at Houssem Design created a stunning website for our startup. Their modern approach and technical expertise helped us stand out in a competitive market."
+                            </p>
+                            <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="gradient-text">Pricing</span> Plans</h2>
+                <p>Choose the perfect package for your project needs</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$500</div>
+                    <p class="price-desc">Perfect for small projects</p>
+                    <ul class="features">
+                        <li>✓ Logo Design</li>
+                        <li>✓ Business Card Design</li>
+                        <li>✓ 2 Revisions</li>
+                        <li>✓ Basic Brand Guidelines</li>
+                        <li>✓ 1 Week Delivery</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$1,200</div>
+                    <p class="price-desc">Ideal for growing businesses</p>
+                    <ul class="features">
+                        <li>✓ Complete Brand Identity</li>
+                        <li>✓ Website Design (5 pages)</li>
+                        <li>✓ Unlimited Revisions</li>
+                        <li>✓ Brand Style Guide</li>
+                        <li>✓ 2 Week Delivery</li>
+                        <li>✓ 3 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <p class="price-desc">For large scale projects</p>
+                    <ul class="features">
+                        <li>✓ Full Brand Ecosystem</li>
+                        <li>✓ Custom Web Development</li>
+                        <li>✓ Mobile App Design</li>
+                        <li>✓ Marketing Materials</li>
+                        <li>✓ Dedicated Account Manager</li>
+                        <li>✓ Ongoing Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <p>Ready to start your next project? Let's create something amazing together.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="projectType" required>
+                                <option value="">Select project type</option>
+                                <option value="branding">Branding</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="ui-ux">UI/UX Design</option>
+                                <option value="print">Print Design</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon cyan">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>hello@houssemdesign.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon coral">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon teal">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>New York, NY</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                        <a href="#" class="social-link">🎨</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">Houssem Design</div>
+                <p>Creating exceptional digital experiences since 2019</p>
+                <p>&copy; 2024 Houssem Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
